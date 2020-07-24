@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8530B7E24C9EFF900A24305 /* imageCarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8530B7D24C9EFF900A24305 /* imageCarTableViewCell.swift */; };
 		D86B8C2A24C9C521002F9E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8C2924C9C521002F9E3F /* AppDelegate.swift */; };
 		D86B8C2C24C9C521002F9E3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8C2B24C9C521002F9E3F /* SceneDelegate.swift */; };
 		D86B8C2E24C9C521002F9E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8C2D24C9C521002F9E3F /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8530B7D24C9EFF900A24305 /* imageCarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCarTableViewCell.swift; sourceTree = "<group>"; };
 		D86B8C2624C9C521002F9E3F /* IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86B8C2924C9C521002F9E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86B8C2B24C9C521002F9E3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D86B8C3224C9C522002F9E3F /* Assets.xcassets */,
 				D86B8C3424C9C522002F9E3F /* LaunchScreen.storyboard */,
 				D86B8C3724C9C522002F9E3F /* Info.plist */,
+				D8530B7D24C9EFF900A24305 /* imageCarTableViewCell.swift */,
 			);
 			path = IOS;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				D86B8C2E24C9C521002F9E3F /* ViewController.swift in Sources */,
 				D86B8C2A24C9C521002F9E3F /* AppDelegate.swift in Sources */,
+				D8530B7E24C9EFF900A24305 /* imageCarTableViewCell.swift in Sources */,
 				D86B8C2C24C9C521002F9E3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
