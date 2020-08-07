@@ -13,7 +13,6 @@ import UIKit
    
 
 class DangKyThuXeViewController: UIViewController {
-   
     @IBOutlet weak var lblModelCar: UILabel!
     @IBOutlet weak var lblImageCar: UIImageView!
     @IBOutlet weak var lnlPriceCar: UILabel!
@@ -24,8 +23,22 @@ class DangKyThuXeViewController: UIViewController {
     var thongbao:UIAlertController?
     
     @IBAction func btnDK(_ sender: Any) {
-        if edtName.text! == nil || edtEmail.text! == nil || edtPhone.text! == nil {
-            thongbao = UIAlertController(title: "Canh bao", message: "Vui lòng nhập đủ thông  ", preferredStyle: .alert)
+        if edtName.text! == "" || edtEmail.text! == "" || edtPhone.text! == "" {
+            let alert:UIAlertController = UIAlertController(title: "Thông báo", message: "Vui long nhap đầy đủ thong tin", preferredStyle: UIAlertController.Style.alert)
+            let btnCancel:UIAlertAction = UIAlertAction(title: "Cancel", style: .destructive){ (btnCancel) in
+            }
+            alert.addAction(btnCancel)
+            present(alert, animated: true, completion: nil)
+        }else
+        {
+            let alert:UIAlertController = UIAlertController(title: "Thông báo", message: "Đăng ký thành công", preferredStyle: UIAlertController.Style.alert)
+                      let btnCancel:UIAlertAction = UIAlertAction(title: "Cancel", style: .destructive){ (btnCancel) in
+                      }
+                      alert.addAction(btnCancel)
+                      present(alert, animated: true, completion: nil)
+            edtName.text! = ""
+            edtPhone.text! = ""
+            edtEmail.text! = ""
         }
     }
     
@@ -36,7 +49,12 @@ class DangKyThuXeViewController: UIViewController {
         lnlPriceCar.text! = priceCar
         // Do any additional setup after loading the view.
     }
-  
+  func kQ(mess:String)  {
+         let alert:UIAlertController = UIAlertController(title: "Thông báo", message: mess, preferredStyle: .alert)
+         let btnOK:UIAlertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+         alert.addAction(btnOK)
+         present(alert, animated: true, completion: nil)
+     }
 
     /*
     // MARK: - Navigation

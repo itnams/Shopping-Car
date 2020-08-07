@@ -8,7 +8,7 @@
 
 import UIKit
 import FirebaseDatabase
- let ref = Database.database().reference()
+let ref = Database.database().reference()
 class DangKyViewController: UIViewController {
 
     var id:Int = 0
@@ -21,13 +21,7 @@ class DangKyViewController: UIViewController {
     
    
     @IBAction func btnRegistration(_ sender: Any) {
-        let useft = UserDefaults()
-        useft.set( id, forKey: "id")
-        if let idu = useft.object(forKey: "id") as? Int{
-            id = idu
-        }; ref.child("tbUser").child(id.description).setValue(["userName":txtUserName.text!,"pass":txtPassWord.text!,"quyen":quyen])
-        id += 1
-        
+         ref.child("tbUser").childByAutoId().setValue(["userName":txtUserName.text!,"pass":txtPassWord.text!,"quyen":quyen])
     }
     
     @IBAction func segmented(_ sender: Any) {

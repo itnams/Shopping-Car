@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		503CB2FE2D2EC398B5F16E84 /* Pods_ShopCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5932F5414854863F1A74D975 /* Pods_ShopCar.framework */; };
 		D8453B4124D6A3DC00D9A880 /* DangKyThuXeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8453B4024D6A3DC00D9A880 /* DangKyThuXeViewController.swift */; };
+		D8453B4A24D6E60E00D9A880 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8453B4924D6E60E00D9A880 /* AdminViewController.swift */; };
+		D8453B4C24D6E86500D9A880 /* TinTucXeOToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8453B4B24D6E86500D9A880 /* TinTucXeOToViewController.swift */; };
 		D85FF1EA24D522E6008F787E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D85FF1E924D522E6008F787E /* GoogleService-Info.plist */; };
 		D85FF1EC24D52D47008F787E /* DangKyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FF1EB24D52D47008F787E /* DangKyViewController.swift */; };
 		D8E3F75B24D1150F0032A2CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3F75A24D1150F0032A2CA /* AppDelegate.swift */; };
@@ -18,6 +20,8 @@
 		D8E3F76524D115100032A2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E3F76324D115100032A2CA /* LaunchScreen.storyboard */; };
 		D8E3F77024D115100032A2CA /* ShopCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3F76F24D115100032A2CA /* ShopCarTests.swift */; };
 		D8E3F77B24D115100032A2CA /* ShopCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3F77A24D115100032A2CA /* ShopCarUITests.swift */; };
+		D8E4598D24DD464000410030 /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E4598C24DD464000410030 /* ManagerViewController.swift */; };
+		D8E4598F24DD4D5900410030 /* managerofAdminTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E4598E24DD4D5900410030 /* managerofAdminTableViewCell.swift */; };
 		D8F0686824D177DA00F08137 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0686724D177DA00F08137 /* HomeViewController.swift */; };
 		D8F0686C24D17D5300F08137 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0686B24D17D5300F08137 /* TableViewCell.swift */; };
 		D8F0687024D18E7B00F08137 /* CTSPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0686F24D18E7B00F08137 /* CTSPViewController.swift */; };
@@ -45,6 +49,8 @@
 		190E133F3DFC8C0AAE1CA871 /* Pods-ShopCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopCar.release.xcconfig"; path = "Target Support Files/Pods-ShopCar/Pods-ShopCar.release.xcconfig"; sourceTree = "<group>"; };
 		5932F5414854863F1A74D975 /* Pods_ShopCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8453B4024D6A3DC00D9A880 /* DangKyThuXeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangKyThuXeViewController.swift; sourceTree = "<group>"; };
+		D8453B4924D6E60E00D9A880 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		D8453B4B24D6E86500D9A880 /* TinTucXeOToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinTucXeOToViewController.swift; sourceTree = "<group>"; };
 		D85FF1E924D522E6008F787E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D85FF1EB24D52D47008F787E /* DangKyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangKyViewController.swift; sourceTree = "<group>"; };
 		D8E3F75724D1150F0032A2CA /* ShopCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +66,8 @@
 		D8E3F77624D115100032A2CA /* ShopCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E3F77A24D115100032A2CA /* ShopCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCarUITests.swift; sourceTree = "<group>"; };
 		D8E3F77C24D115100032A2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E4598C24DD464000410030 /* ManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
+		D8E4598E24DD4D5900410030 /* managerofAdminTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerofAdminTableViewCell.swift; sourceTree = "<group>"; };
 		D8F0686724D177DA00F08137 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D8F0686B24D17D5300F08137 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D8F0686F24D18E7B00F08137 /* CTSPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSPViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +153,10 @@
 				D8F0686F24D18E7B00F08137 /* CTSPViewController.swift */,
 				D85FF1EB24D52D47008F787E /* DangKyViewController.swift */,
 				D8453B4024D6A3DC00D9A880 /* DangKyThuXeViewController.swift */,
+				D8453B4924D6E60E00D9A880 /* AdminViewController.swift */,
+				D8453B4B24D6E86500D9A880 /* TinTucXeOToViewController.swift */,
+				D8E4598C24DD464000410030 /* ManagerViewController.swift */,
+				D8E4598E24DD4D5900410030 /* managerofAdminTableViewCell.swift */,
 			);
 			path = ShopCar;
 			sourceTree = "<group>";
@@ -361,10 +373,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E4598F24DD4D5900410030 /* managerofAdminTableViewCell.swift in Sources */,
+				D8E4598D24DD464000410030 /* ManagerViewController.swift in Sources */,
+				D8453B4C24D6E86500D9A880 /* TinTucXeOToViewController.swift in Sources */,
 				D8F0687024D18E7B00F08137 /* CTSPViewController.swift in Sources */,
 				D8E3F75D24D1150F0032A2CA /* ViewController.swift in Sources */,
 				D85FF1EC24D52D47008F787E /* DangKyViewController.swift in Sources */,
 				D8453B4124D6A3DC00D9A880 /* DangKyThuXeViewController.swift in Sources */,
+				D8453B4A24D6E60E00D9A880 /* AdminViewController.swift in Sources */,
 				D8F0686C24D17D5300F08137 /* TableViewCell.swift in Sources */,
 				D8E3F75B24D1150F0032A2CA /* AppDelegate.swift in Sources */,
 				D8F0686824D177DA00F08137 /* HomeViewController.swift in Sources */,
