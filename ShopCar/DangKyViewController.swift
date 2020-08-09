@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import FirebaseDatabase
-let ref = Database.database().reference()
+import Firebase
+ let ref = Database.database().reference()
 class DangKyViewController: UIViewController {
 
     var id:Int = 0
@@ -21,18 +21,25 @@ class DangKyViewController: UIViewController {
     
    
     @IBAction func btnRegistration(_ sender: Any) {
-         ref.child("tbUser").childByAutoId().setValue(["userName":txtUserName.text!,"pass":txtPassWord.text!,"quyen":quyen])
-    }
-    
-    @IBAction func segmented(_ sender: Any) {
-        let segIndex = segmentedPosition.selectedSegmentIndex
-        let segTitle = segmentedPosition.titleForSegment(at: segIndex)
-        switch segIndex {
-        case 0:
-            quyen = "Admin"
-        default:
-            quyen = "Customer"
-        }
+              Auth.auth().createUser(withEmail: txtUserName.text!, password: txtPassWord.text!) { authResult, error in
+                 // ...
+                   if error == nil
+                   {
+                    let alert:UIAlertController = UIAlertController(title: "Thông báo", message: "Đăng ký thành công", preferredStyle: UIAlertController.Style.alert)
+                                        let btnCancel:UIAlertAction = UIAlertAction(title: "Cancel", style: .destructive){ (btnCancel) in
+                                        }
+                                        alert.addAction(btnCancel)
+                    self.present(alert, animated: true, completion: nil)
+                   }
+                   else
+                   {
+                    let alert:UIAlertController = UIAlertController(title: "Thông báo", message: error.debugDescription, preferredStyle: UIAlertController.Style.alert)
+                                    let btnCancel:UIAlertAction = UIAlertAction(title: "Cancel", style: .destructive){ (btnCancel) in
+                                    }
+                                    alert.addAction(btnCancel)
+                self.present(alert, animated: true, completion: nil)
+                   }
+               }
     }
     override func viewDidLoad() {
         super.viewDidLoad()

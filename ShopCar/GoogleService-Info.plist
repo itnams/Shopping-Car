@@ -32,5 +32,7 @@
 	<string>1:953688207810:ios:684c6e21feadeca47b265b</string>
 	<key>DATABASE_URL</key>
 	<string>https://doanios-f25c6.firebaseio.com</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please alow access to upload photos.</string>
 </dict>
 </plist>

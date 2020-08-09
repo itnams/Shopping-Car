@@ -21,7 +21,16 @@ class CTSPViewController: UIViewController {
         super.viewDidLoad()
         var hinhnen:UIImage    = UIImage(named: "Anhnen.jpg")!
         self.view.backgroundColor = UIColor(patternImage: hinhnen)
-        imgView2.image = UIImage(named: name)
+        let url:URL = URL(string: name )!
+               do{
+                   let dulieu:Data = try Data(contentsOf: url)
+                   imgView2.image = UIImage(data: dulieu)
+               }
+               catch
+               {
+                   
+               }
+        
         lblTenXe.text! = tenxe
         lblGiaXe.text! = giaXe + " VND"
         lblCTSP.text! = ctsp

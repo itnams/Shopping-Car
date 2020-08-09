@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		503CB2FE2D2EC398B5F16E84 /* Pods_ShopCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5932F5414854863F1A74D975 /* Pods_ShopCar.framework */; };
+		D83CC86224DDB58F00AC7198 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83CC86124DDB58F00AC7198 /* EditViewController.swift */; };
 		D8453B4124D6A3DC00D9A880 /* DangKyThuXeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8453B4024D6A3DC00D9A880 /* DangKyThuXeViewController.swift */; };
 		D8453B4A24D6E60E00D9A880 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8453B4924D6E60E00D9A880 /* AdminViewController.swift */; };
 		D8453B4C24D6E86500D9A880 /* TinTucXeOToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8453B4B24D6E86500D9A880 /* TinTucXeOToViewController.swift */; };
@@ -48,6 +49,7 @@
 		13320D87249E74267D3C4DC7 /* Pods-ShopCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopCar.debug.xcconfig"; path = "Target Support Files/Pods-ShopCar/Pods-ShopCar.debug.xcconfig"; sourceTree = "<group>"; };
 		190E133F3DFC8C0AAE1CA871 /* Pods-ShopCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopCar.release.xcconfig"; path = "Target Support Files/Pods-ShopCar/Pods-ShopCar.release.xcconfig"; sourceTree = "<group>"; };
 		5932F5414854863F1A74D975 /* Pods_ShopCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83CC86124DDB58F00AC7198 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		D8453B4024D6A3DC00D9A880 /* DangKyThuXeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangKyThuXeViewController.swift; sourceTree = "<group>"; };
 		D8453B4924D6E60E00D9A880 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
 		D8453B4B24D6E86500D9A880 /* TinTucXeOToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinTucXeOToViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				D8453B4B24D6E86500D9A880 /* TinTucXeOToViewController.swift */,
 				D8E4598C24DD464000410030 /* ManagerViewController.swift */,
 				D8E4598E24DD4D5900410030 /* managerofAdminTableViewCell.swift */,
+				D83CC86124DDB58F00AC7198 /* EditViewController.swift */,
 			);
 			path = ShopCar;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				D85FF1EC24D52D47008F787E /* DangKyViewController.swift in Sources */,
 				D8453B4124D6A3DC00D9A880 /* DangKyThuXeViewController.swift in Sources */,
 				D8453B4A24D6E60E00D9A880 /* AdminViewController.swift in Sources */,
+				D83CC86224DDB58F00AC7198 /* EditViewController.swift in Sources */,
 				D8F0686C24D17D5300F08137 /* TableViewCell.swift in Sources */,
 				D8E3F75B24D1150F0032A2CA /* AppDelegate.swift in Sources */,
 				D8F0686824D177DA00F08137 /* HomeViewController.swift in Sources */,

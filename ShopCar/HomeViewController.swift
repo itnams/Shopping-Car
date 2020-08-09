@@ -24,7 +24,16 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         let cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! TableViewCell
         cell.lblTenSP.text = arrCar[indexPath.row].model
         cell.lblGiaSP.text = String(arrCar[indexPath.row].price) + " VND"
-        cell.imgView.image = UIImage(named: arrCar[indexPath.row].image)
+        let url:URL = URL(string: arrCar[indexPath.row].image )!
+        do{
+            let dulieu:Data = try Data(contentsOf: url)
+             cell.imgView.image = UIImage(data: dulieu)
+        }
+        catch
+        {
+            
+        }
+        //(named: arrCar[indexPath.row].image)
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
